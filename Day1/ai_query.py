@@ -4,7 +4,7 @@ response = ollama.chat(
     messages=[
         {
             "role": "user",
-            "content":"what is photosynthesis in 2 lines"
+            "content":"what is GenZ in 2 lines"
         }
     ]
 )
