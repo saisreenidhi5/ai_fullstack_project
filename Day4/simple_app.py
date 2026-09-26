@@ -1,5 +1,7 @@
 import streamlit as st
 st.title("My first Streamlit App!!")
+st.header("Hello User")
+st.subheader("welcome")
 st.write("Welcome to my AI application!")
 name=st.text_input("Enter your name: ")
 if st.button("Submit"):
